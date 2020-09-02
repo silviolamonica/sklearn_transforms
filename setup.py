@@ -1,3 +1,8 @@
+install_requires=[
+         'imbalanced-learn==0.4.3'
+      ],
+
+
 from setuptools import setup
 
 
