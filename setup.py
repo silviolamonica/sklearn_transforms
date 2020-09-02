@@ -2,6 +2,13 @@ install_requires=[
          'imbalanced-learn==0.4.3'
       ],
 
+from imblearn.under_sampling import NearMiss
+from imblearn.over_sampling import RandomOverSampler
+from imblearn.combine import SMOTETomek
+from imblearn.ensemble import BalancedBaggingClassifier
+
+
+
 
 from setuptools import setup
 
